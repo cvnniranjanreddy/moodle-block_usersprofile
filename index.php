@@ -85,7 +85,7 @@ require_once($CFG->dirroot . '/user/profile/lib.php');
 require_once($CFG->libdir.'/filelib.php');
 global $USER,$PAGE;
 $contextid=optional_param('contextid',0,PARAM_INT);
- $PAGE->set_url('/blocks/usersprofile/index.php');
+ $PAGE->set_url('/blocks/usersprofile/index.php?'.$contextid);
 //check the context level of the user and check weather the user is login to the system or not
 if ($contextid) {
         $context = context::instance_by_id($contextid, MUST_EXIST);
