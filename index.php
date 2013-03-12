@@ -160,7 +160,7 @@ $user_picture=new user_picture($users);
 $src=$user_picture->get_url($PAGE);
 
 
-echo '<div class="swiper-slide real-reflection" style="background-image:url(gradiant.jpg);height:650px !important">
+echo '<div class="swiper-slide real-reflection" style="background-image:url(pix/gradiant.jpg);height:650px !important">
 <div style="text-align:center;"><img src="'.$src.'" height="55px" width="55px" style="padding:10px;"alt="users Profile"></div> '.$details.'
 <br/><div style="text-align:center;"> <a  style="color:#076bd0" href="'.$CFG->wwwroot.'/message/index.php?id='.$users->id.'" target="_blank">'.get_string('messageselectadd').'</a>
  </div>
