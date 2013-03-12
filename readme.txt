@@ -18,5 +18,6 @@ Major features
 --------------
 You can see the profile of the site/course  users in the 3D format.
 
-Note: It will work latest browsers (Chrome: Version 25.0.1364.160 m,firefox 19.0.2 and it will not work on ie7 and ie8 need to check on the ie9) and the latest OS like windows-7 
-
+Note: 
+1. It will work latest browsers (Chrome: Version 25.0.1364.160 m,firefox 19.0.2 and it will not work on ie7 and ie8 need to check on the ie9) and the latest OS like windows-7 
+2. Atleast there should be more than 5 users in your moodle instance.
